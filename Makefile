@@ -1,12 +1,11 @@
 CC = gcc
 CFLAGS = -Wall -O2
-LDFLAGS = -lcurl
 TARGET = main
 SRCS = main.c
 OBJS = $(SRCS:.c=.o)
 
 $(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(LDFLAGS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
