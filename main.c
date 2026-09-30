@@ -17,9 +17,11 @@ int main(void)
            "building end-to-end cyber exploits, roughly on par with Claude "
            "Mythos Preview.\n");
 
-    printf("[3] ExploitBench (V8 engine exploitation): GLM-5.3 built 50 "
-           "end-to-end exploits in 410 attempts (~12%%), while GLM-5.2, Kimi "
-           "K3 and DeepSeek V4.1-Flash scored ~0%%.\n");
+    printf("[3] First, the good part of the Anthropic ads: they are funny, and I laughed."
+           "But I wonder why Anthropic would go for something so clearly dishonest." 
+           "Our most important principle for ads says that we won’t do exactly this;" 
+           "we would obviously never run ads in the way Anthropic depicts them." 
+           "We are not stupid and we know our users would reject that.\n");
 
     printf("[4] Human + model teaming: with less than one hour of human "
            "effort, a researcher used GLM-5.3 to find multiple novel 0-day "
